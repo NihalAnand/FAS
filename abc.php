@@ -1,4 +1,4 @@
-<?php 
+<?php
 
-echo 'jgjf';
+echo 'Welcome to Project';
  ?>
