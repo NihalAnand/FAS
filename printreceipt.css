@@ -1,0 +1,66 @@
+body{
+	background-color: white;
+}
+
+
+.tabcontainer{
+	width: 40%;
+	height : 350px;
+		margin-top: 100px;
+
+	
+}
+
+.tabcontainer .buttonContainer{
+	height: 10%;
+	width: 70%;
+	position: absolute;
+	top: 15%;
+	margin-left: 200px;
+	margin-top: 100px;
+	display: inline-flex;
+margin-top: 50px;
+}
+
+.tabcontainer .buttonContainer button{
+	
+	margin-top: 10px;
+	height: 120px;
+margin-left: 70px;
+	/*display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		font-size: 18px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: black;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;*/
+
+	}
+.tabcontainer .buttonContainer button:hover{
+	/*background-color: orange;*/
+	}
+.tabcontainer .tabPanel{
+		height:50vh;
+		color: black;
+		text-transform: uppercase;
+		text-align: center;
+	margin-top: 15%;
+	width: 150vh;
+		padding-top: 10px;
+	 margin-left: 130px;
+		font-size: 22px;
+		display: none;
+		/*background-color: transparent;*/
+		border: 10px;	
+ 
+	}
+body div h1{
+	margin-top: -80px;
+}

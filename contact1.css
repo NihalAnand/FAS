@@ -1,0 +1,19 @@
+body{
+
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back1.jpg);
+}
+.edit{
+	font-size: 100px;
+	 overflow-x: hidden;
+	 color: white;
+	 font-family: 'Flamenco', cursive;
+}
+.edit2{
+	font-size: 50px;
+	 overflow-x: hidden;
+	 font-family: 'Flamenco', cursive;
+	 color: orange;
+}

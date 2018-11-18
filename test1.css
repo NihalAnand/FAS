@@ -1,0 +1,48 @@
+.tabcontainer{
+	width: 40%;
+	height : 350px;
+
+	
+}
+
+.tabcontainer .buttonContainer{
+	height: 10%;
+	width: 70%;
+	position: absolute;
+	top: 20%;
+	margin-left: 200px;
+	display: inline-flex;
+}
+
+.tabcontainer .buttonContainer button{
+	
+
+	display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		font-size: 18px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: #fff;
+		margin-right: 15px;
+		border: 1px solid orange; 
+
+	}
+.tabcontainer .buttonContainer button:hover{
+	background-color: orange;
+	}
+
+	.tabcontainer .tabPanel{
+		height: 85%;
+		color: orange;
+		background-color: white;
+		text-align: center;
+		padding-top: 50px;
+		box-sizing: border-box;
+		font-size: 22px;
+		display: none;
+	}

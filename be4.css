@@ -1,0 +1,264 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+ body{
+
+	 font-size:20px;
+	 overflow-x: hidden;
+	 color: white;
+	 font-family: 'Flamenco', cursive;
+	 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back1.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			height: 100vh;
+}
+
+
+header{
+			
+	}
+		.main-nav{
+		float: right;
+		margin-top: 100px;
+	}
+
+
+	header .main-nav li{
+		display: inline-block;
+		list-style: none;
+		margin-left: 40px;
+		
+
+	}
+	.main-nav li a{
+		padding: 5px 0;
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: lighter;
+
+			}
+
+	.main-nav li a:hover{
+		border-bottom: 2px solid orange; 
+	}
+
+.main-nav input[type="submit"]
+{
+	display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+}
+.main-nav input[type="submit"]:hover{
+		background-color: #fff;
+	}
+
+
+
+
+.btn{
+		display: inline-block;
+		padding: 50px 150px;
+		margin-left: 50px;
+		margin-top: 100px;
+
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 100px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	}
+
+
+	.btn-button1{
+		background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+	}
+
+	.btn-button1:hover{
+		background-color: #fff;
+	}
+
+	.btn-button2{
+		background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+	}
+.btn-button2:hover{
+		background-color: #fff;
+	}
+
+
+	.btn-button3{
+		background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+	}
+.btn-button3:hover{
+		background-color: #fff;
+	}
+
+header table tr th {
+background: transparent;
+color: orange;
+text-align: left;
+font-size: 25px;
+
+}
+header table tr th:hover{
+	border-bottom: 2px solid orange; 
+}
+
+header table tr td {
+	height: 50px;
+	font-size: 22px;
+	
+}
+
+header table{
+	
+	
+	position: absolute;
+	top: 30%;
+	margin-left: 100px;
+	width: 100%;
+
+	
+	border: none;
+}
+body header div .fieldset{
+	border: none;
+	margin-left: 40px;
+	position: absolute;
+	top: 30%;
+	padding: 50px;
+
+}
+body header .fieldset label {
+
+	
+}
+body header .fieldset input{
+	
+	padding: 10px;
+	background: transparent;
+	border: none;
+
+
+}
+
+header table tr th input {
+display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+}
+header table tr th input[type="submit"]:hover{
+		background-color: #fff;
+	}
+
+header table tr td a {
+	text-decoration:none;
+	color: orange;
+}
+header table tr td input[type="checkbox"]{
+	width: 25px;
+	height: 25px;
+	margin-left: 30px;
+}
+
+table tr td button{
+	display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+
+}
+
+table tr td button:hover{
+	background-color: #fff;
+}
+
+
+.tabcontainer .tabPanel input[type="submit"]
+{
+	display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+}
+.tabcontainer .tabPanel input[type="submit"]:hover{
+		background-color: #fff;
+	}
+.tabcontainer .tabPanel input[type="text"]{
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+}
+form button{
+	display: inline-block;
+		padding: 10px 20px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+}
+
+form button:hover{
+background-color: #fff;
+}

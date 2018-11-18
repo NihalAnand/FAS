@@ -1,0 +1,296 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+ body{
+
+	 font-size:20px;
+	 overflow-x: hidden;
+	 color: white;
+	 font-family: 'Flamenco', cursive;
+	 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back1.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			height: 100vh;
+}
+
+
+header{
+			
+	}
+		.main-nav{
+		float: right;
+		margin-top: 20px;
+	}
+
+
+	header .main-nav li{
+		display: inline-block;
+		list-style: none;
+		margin-left: 40px;
+		
+
+	}
+	.main-nav li a{
+		padding: 5px 0;
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: lighter;
+
+			}
+
+	.main-nav li a:hover{
+		border-bottom: 2px solid orange; 
+	}
+
+.main-nav input[type="submit"]
+{
+	display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+}
+.main-nav input[type="submit"]:hover{
+		background-color: #fff;
+	}
+
+
+
+
+.btn{
+		display: inline-block;
+		padding: 50px 150px;
+		margin-left: 50px;
+		margin-top: 100px;
+
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 100px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	}
+
+
+	.btn-button1{
+		background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+	}
+
+	.btn-button1:hover{
+		background-color: #fff;
+	}
+
+	.btn-button2{
+		background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+	}
+.btn-button2:hover{
+		background-color: #fff;
+	}
+
+
+	.btn-button3{
+		background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+	}
+.btn-button3:hover{
+		background-color: #fff;
+	}
+.tabcontainer{
+	width: 40%;
+	height : 350px;
+
+	
+}
+
+.tabcontainer .buttonContainer{
+	height: 10%;
+	width: 70%;
+	position: absolute;
+	top: 15%;
+	margin-left: 200px;
+	display: inline-flex;
+}
+
+.tabcontainer .buttonContainer button{
+	
+
+	display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		font-size: 18px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: #fff;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+
+	}
+.tabcontainer .buttonContainer button:hover{
+	background-color: orange;
+	}
+.tabcontainer .tabPanel{
+		height:50vh;
+		color: white;
+		text-transform: uppercase;
+		text-align: center;
+	margin-top: 15%;
+	width: 150vh;
+		padding-top: 40px;
+	 margin-left: 130px;
+		font-size: 22px;
+		display: none;
+		background-color: transparent;
+ 
+	}
+
+	.form-style-1 {
+
+	margin:-85px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: orange; 
+
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+
+	
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	width: 49%;
+	height: 5vh;
+
+	
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+.form-style-1 .field-textarea1{
+	width: 75%;
+	height: 10vh;
+}	
+
+.tabPanel .fieldset label {
+	color: orange;
+	display: inline-flex;
+	margin-right: 50px;
+}
+
+.main-nav input[type="submit"]
+{
+	display: inline-block;
+		padding: 10px 30px;
+		font-weight: lighter;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.2s, border 0.2s, color 0.2;
+
+	background-color: transparent;
+		color: orange;
+		margin-right: 15px;
+		border: 1px solid orange; 
+		outline: none;
+}
+.main-nav input[type="submit"]:hover{
+		background-color: #fff;
+	}

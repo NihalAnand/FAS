@@ -1,0 +1,39 @@
+body{
+
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back1.jpg);
+}
+.edit{
+	font-size: 100px;
+	 overflow-x: hidden;
+	 color: white;
+	 font-family: 'Flamenco', cursive;
+}
+.edit2{
+	font-size: 50px;
+	 overflow-x: hidden;
+	 font-family: 'Flamenco', cursive;
+	 color: orange;
+}
+
+.edit4{
+
+		animation: CompiledBy 1s infinite;
+}
+	
+@keyframes CompiledBy {
+		0%{color: blue;}
+		25%{color: red;}
+		50%{color: white;}
+		100%{color:red;}
+
+	}
+.edit3{margin-right: 20px;
+	font-size: 20px;
+	 overflow-x: hidden;
+	 color: white;
+	 font-family: 'sans-serif', cursive;
+
+}
